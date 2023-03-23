@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="10" viewBox="0 0 20 10">
+  <defs>
+    <image id="image" width="20" height="2" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAAHUlEQVQImWNk+P/1PgMDgwIDdcADJioZBAEMDAwAHjED1+jvFw8AAAAASUVORK5CYII="/>
+  </defs>
+  <use xlink:href="#image"/>
+  <use y="4" xlink:href="#image"/>
+  <use y="8" xlink:href="#image"/>
+</svg>

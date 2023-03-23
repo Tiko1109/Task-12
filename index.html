@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 12</title>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a class="logo" href="index.html">logo</a>
+        <ul>
+            <li>
+                <a href="#">01. About</a>
+            </li>
+            <li>
+                <a href="static/pages/work.html">02. Work</a>
+            </li>
+            <li>
+                <a href="#">03. Experience</a>
+            </li>
+            <li>
+                <a href="#">04. Contact</a>
+            </li>
+        </ul>
+        <div class="resume">
+        <a href="static/files/CV-Tamar Barnabishvili.pdf" download>Resume</a>
+        </div>
+        <svg class="burger-bar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="10" viewBox="0 0 20 10">
+            <defs>
+              <image id="image" width="20" height="2" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAAHUlEQVQImWNk+P/1PgMDgwIDdcADJioZBAEMDAwAHjED1+jvFw8AAAAASUVORK5CYII="/>
+            </defs>
+            <use xlink:href="#image"/>
+            <use y="4" xlink:href="#image"/>
+            <use y="8" xlink:href="#image"/>
+          </svg>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about-me">
+                <h2>01. About me</h2>
+                <div class="author">
+                <div class="author-image">
+                    <div class="eclipse above"></div>
+                    <img src="static/img/pictures/author-pic.png" alt="portfolio author picture">
+                    <div class="eclipse below"></div>
+                </div>
+                <div class="author-info">
+                    <span>Hello</span>
+                    <p>Nunito is a playful, friendly, and modern font that works well for landing page design, software design, and many other use cases.
+                    Nunito is a playful, friendly, and modern font that works well for landing page design, software design, and many other use cases.</p>
+                    <button>Let’s work together</button>
+                </div>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="20" viewBox="0 0 19 20">
+                            <image width="19" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAFY0lEQVQ4jTVTCVATZxT+srscCYEECVcIBEERAUXlUETqVaSe1XqU1jpt1em02kGtFqdqPcZi1dY61gpap55o61QL00qFWgXRIqKCFRURAwRykJBA7mSzSbazGftmdt7O+//35v3fwZu/eA1sNjtCQ4VTDpSV3k0bOxrPOrrulJ+4sCs1ddRNh90ue9qhGDkyUcaoVBo6KTmxLSgwMHxe0fS9qWOS1r/o6rEcPnq6SKlUN2PV6s2Y9cZ7qPjxwlcsy7Jer9fDZYvVxvSrtAaHw+m22R2si3azLhfNarX6oQHdoI27wzCMl8sPHra3fbpxNxAZlw0gDN8ePnmHO9hT9n1RyWd7ZtgdDqPH42H1g0ad3eGsNZkt18wW62OHw8na7Q62uaVtx/Y9h9Kb7rVybVqWZUHl52XhpSICwhBBK4D8yTkT0jtfKL6rqW0Yo1YNiHkET1k4K59xuWh0K1WEWjUQK0+II0+dudQXxOdn7t25CWq1zlv5czWo+fNnQ683IC8vKwMAIiLEAWFhQmg0OgNFUQaBIBhBQUEgCAICAd9HkKQ6IICCDzy4XHQgDzyIxaFxFy/9PoM0DPuQkBD3TvHyBVuamlsfzV304arLVbUYnZyItLGjQDNuJCbI4PP6YDJbwDCMn7DOrh4MGU0alVpLFM6eNl0iCRcQkyZlIGtSxkxuq7rrjecmZKZjxdIF8LEsDMZhBFAUggIDQVEUSJL0b6jW6Pyv8Xg8uNV47xeud0ruxCXU5pI1kEqj4fF4MTRsNkRFRUAkEkKvN8JisSE3JxNWqw2hoSGwWG3o6FT4a/lTs8Hj8aAfNPYMDZt9ocKQADIpZQJIkliYEC/NslhsVXK57LFMGguZLNY/oOX+I1y6UgO324P29k4ON3i9PtTWNkDZp0ZvT/+INxcVlprNVhDHTpzD1T9v9HOrer2+KfsOlONmQxOksVFIHikHeDwouvvQ/qQTPIKH8HARZNIoOJwu/HX9NnqV6lyKJOFmmHoiKTEBaq2+mhv22rScdQ67M0WpVMFud4B20yAJAmJxGMSiMD9eXD0uLgYzp+chJjoSJevfX8P11lyrryMiJSMgFAjajxw7+1O8LBbP/q27OnNG3mSlUg2NVu/HiaOfG+R00tDpDRjQDcJssYp3bS+pmvP6tMWK7r6BipOVx6lQoTBp/Pixw5u27F0riQgft7J4Ue7uHRua9YPG3n6V9qHJZK7q61dfCAwMgFwunZicLN86MTMtfs7sgqnBwUGg3W7zF18eLNRoBs149vylhvPD6o9KVwJ8VJy8uE47MGj0ePy2Y69U1/bJkqaSbxV/gtPnLn/NvgqGYUxnzl85v++bipic/MWQSLNBPO3oquHefPyHssqlxatXVFXXla/8YGNE/a2797m6QtG3LTJS4m1/8hxHy88cGR42e7j61h0HC06d/XVVcFDgAEeW3W4HqRvy/dHZqTAUFRbMW7Fs3nKSJN18Pp8sXr7gYxdNC5rvtW19rSB3aNmSuUhPS7HFRkfmhYeLRlderP6NIIhuPj8YRqMJwpAQUGJRKA6UHTnGeDzyQ/u3ff7u2wv34VWo1QMwDptAMwzGZ6RCGhsNkSjMr3yOYU60Go0OMTESJCXJQHDAJo4Zhes3/indvvNQfsuDx4fNZut+t5uhBSECBAcH+y3lcDr9jmBZH3gE4R/EWY4TMcsCdrsLFOtj/WvI46WwWK1NTc2tTRz949JTiqWx0YmcIDlP+j+CBI9HgOvmpMJpkMv/B+X/YQGvz4f4eCleKnpR93cjtmxY22A0mrKu1db3i8RhcLlc8Hp8oGn6rkQSnt14u+WF282Aw8wfAP4DnTCk233MbHMAAAAASUVORK5CYII="/>
+                          </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="20" viewBox="0 0 12 20">
+                            <image width="12" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAADIElEQVQokV1Sa0hTYRh+9u3ocjvTdlEzNa3mnGXTtLLbgi7Tbkj+iMJoQQWZZUVYWUlFFkU/igqLiKSi8EeJItKFLDKNtJughUZ0MXNZptvc5Wxz55z4ltrlge/H87z393slBqMZI/D7h+Dz+7F/b2GcXpdYljUrLRYi4l69bk9JTp4UaHvz7hJ0UxYGnz51MaTyJFg2FR8Rh+HxcKLL5RmhYv+AzYGp05ciNWMZlFojVudvXz9itFq/Xzl9riI+QW+Sm5dbZjudLioLzKrcbPB8AC63B0VbLQdod9dvVu+6WVlz1jQ/S7l7x2ZWpY6AhBDwvADmc1c3vF4fIrXqFfqkiYYfff3vblffPavWqLKLCtffjwhXjs7YY+11MpkZxmCF6elTtFR0u7lWm20QebnZO6jz2473HSyraJaHjdHV1j1sJMKQHyUlx3G/vimYxefzB5pbWmG3D8ZTXlBQXJk4QbfRsrF4wcdP3QeZtPTUsovlJzfExESGUge5PEyMitJAHG6jtLR4e8MT01qz2URsA/YKBHjeIf6Fqpp7l+l6j50orxP/Q1t7h4NICVG0tXfCYDRv27P/5NzHjS2FGvVYND9vXbdt5+G8pKmLTPsOnrpNq3341P2SAJB6OC/SjClVGvXYZ1qVSliVawbHeV0yWWhtjnlB08zMaYM0oK298wlEUfynpbo7j44YZyzHoaNnLvytc5xXLCgqXUKqqu81f+35/q3v50AfzaLXT5zU9cUKhVw+j3K7Y9DudLr7G5qe3+IFoZ65UVmTY+39gYgI5QZLft5ViJCEhDBQKMKCW9q0peR0XFxM2dw5mRgjCwUTHa2FRqMKEgoR/8Jmc+BxQwvGx0SB43wgmRnT4OG4P44i6FyjkePGRYEe6fny62hsegESrmTBB/jRrIRI4HS6QTdHwfM8WEUY/VAIggBmKBAAIQQSiSTo4PcPhWTNTKfHSFc+2qZU+psy9MBkMhnCWUVQSDFMXvPgzrU1suGZXC433AN22IftTP3Dp8HzZll5Z+z4aCRMiIWUSMFxHLp7evnEhPi6vNUrwdIAAL8At+yQRt1LNJsAAAAASUVORK5CYII="/>
+                          </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="19.048" viewBox="0 0 21 20">
+                            <image width="21" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAE2ElEQVQ4jY1UbWwURRh+Z3a399X76HG93t5tP+4KB4EWi2CVlI/aUqR8FIykCoZgcgYiRMMPiMVACCYGSBASTQyowRhqAkQESYEGiqAQCkaghbZSS/VauJYWenvbu929j90ds1dj4B8zmd2ZyTPPPM+bd14ULFvEHfl6784ppSWhkdGnkd4H4Y87OnqOXWi7ChaLGXhegCWLF8BHm9bDnc5u6O0Lw9xXK+BORzfMmlUG7TduQ6GPhUdDwyDEEoB3NG0++FplRchkNkaCU/zs4tqqAwRgHgAAQig7QB8v2PC6d1etjCfER9u27wns2394h82ay74yp3xzPC6CoiiQzmRAVZQXJsXhgUe8pmoOjKhtPl9Blb4Z/ntwRJQk4PkYjAvjQODFReKWc5e30DQd/eqL3XtC7zU2XLv+x89nW6/sNxhygKIpCPiLwO1ygqKokMkoIInSxF+SQVXViZA80+inY9Fj19pv/WUyGJZnFGWo537/Ua+nIKkHvaSYA45jYTyegERCtLkmORa+NHPaHM7nMcvyVCXXYrrJ88INtiB/BCGkGwG6uJjbUlLkswhC3JpnsgcmOR0f9veHbxAEV9OpNIyN8cB5C+Z62YK9k0uLFzAMDYQQCPgLQVFViAyN/i7LqSZFUS5nCZe+sXB3vstpTaXSYDIZs9ovtP3WlhLlOnOuGbysu+7t1cvO2O25xuGRJ38+6A83C7HEY4fDxk4uLVq1bEl1ZXgg8uO97vuNmqpdovPyHAwhJNp+8/bWB/2DizaE3lkrijJk0hmYM7u8cEV9zWdlM4LGs+evHO/r/2djOp0Rxp7yRkzhZCIhHVw4v/LQqoa6dfV184+0nLvyMoiinBaEeHj1ms1Qu2TdGkII2bHrwDEAJ3zXfHKTvj55uvU8IA4+2bm/eHh49FxHZ494r6v3Un1DKFBV3QjX22/f0nHNP5wOYUxhEhPGScvZX4D1uDjdMsu6U1U1i8HlzKvR183ff3PUkafBypVLv/V48uunTS01l80I1jRt3dBWVTXbe+b8pb0xIS7Vvj63AesBpmmaeL1uYBgG6clcyHnUz/c1Qdn0YCkAjM+rrr+48YMtb1aUT150t7u39UxLW3B4ePTXBfMr/Uk56b548dr1pJyUFE2div/LIKQTAwDRNAKaRpDNbgOrLVcSRYmqmDldKSn0uWU5CcePt0RjsXgfy7qf6AcikREyODjkUFWVfjLGc/i5rCQEMEagaRrE+BikkimCMaajfMwgjMdFHWI05ridTrs+VfWP/gAsFiOVffeAFPw/lZYtBs9dQCY6slgsyGwxaaqqgcls1DCFnwUBBqxXEf28goEAojBGJpMBpGQqCoCeBSOzyZQ8dbo12dx8ijjs1uweTIQnC7TkmlBayUQ1TVN1ThpTSCWEUAijfIahfdkrEVAIY6AZWrdl7LrbycmJRJ6uTI8vxlmF2oQ1MolhGDtCiCYECK0qmmK3Wwu/PLCrK+AvsoxFY6AqqqEg3wUMzWiKouTs/nT7ZbvNmqMT8DFBy+jlTHcKABvfX3sitL4R5buc9sGHQwlq+Yq3lpWUcKaAv8jqcNgIAnjc1dN3+MTJlk4EqLpserC81F+EfF6Proh6GHl8SJTk9oQkVTrstvKAvzCH41iMMeYHBiI//Qt5+jOA13KxswAAAABJRU5ErkJggg=="/>
+                          </svg>                          
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+                            <image width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAFJ0lEQVQ4jZVUaVATZxh+sxtYcmdzEQkgiLGAGJVg0SCHQMRj8K5a6WipdXBKa6W1M46dWvUH6jiDM9Vp60WtVtERr4JH1VEBsahVqpIgUbnCFSAc2dyb7HY2FWy1f/rOfLOz3/Pt8z7v+z7fsuImz4aOrh74vPBD7qz06Z+p1VHpIoEg5qmhScXjcuDNoGkAkiQhSasx2Aiip/Ro+SWD0XRYpVJSx0+cB+BLJ4EmaV764yeNvfT/CKfLPXq4sellQ8Gn3wjFoVOAFR2bjlffONUdrlJiZnN3XdWd+7v3fnfER3r9gLIRcLncgCBIQCfzRBAWWCz9MC4m0l+0IV+RMXP6NoVCGlVT+8CUu3jdVPbmTQXFDNnVa9U3L1bcyEqcOhEsfVbo7uwDHp8DUokYeHwu0BQN/f0DwGKxmHLhvWXzwOejYOHygnM7d3xVn5GWPKF4x6Z8do4+bTWT/dqNmgIeLwQwLBhwsQhwoRDW5q+AFF0iHCo9DRRFweysVGjv6IYxSoUob2VuWVt715936+q3HDt5/suMtOQLubnZ8xGpFOc6nW6YlqR5sXjRnECJg4M2UKujYYI6GlQqpS5lhrYkVTetRKtN0DW3mKGgcAtFEI65QUFoPvhIuFP7YIAR5bA7ZrCZEpipWQeGhAIB31ZT+wd0NreCRxMrio4OPxOmVOjXfLBkZNZFSxfNvn7h4tUlhUVb490ur/vMydMwJTlZxIAul5vPZkphms3ncaG3tx+emV4AHxejGz5Z83vcOzFxnV0Wa1t75z4URUAsFm3NmqXTH/5x1+WDpWVpwcEYcPFQYKNoIBuLxfIgI6nZbJRRCVwuBzZu/HhZjj41rsFoal27frPa0tu/3WB8vn1FXmFUZ5eld96cjNQF8/XT5TIcJLgQPB5y1K2jhAThBGWoHNasWgrLl8zNZPZuV9XtCWKzB1EEgcgIFYwfqzDfrr5XwmByuWQVSfpfWYp+m3Ak/JQfvCTJY15lMklfik4Lz0zNAcvoc+aABBdZGMzj8Yr6rQOB6SMs1tuEYlwIrW0dUFy8H06eqqhl9sJVyq/LTlXgdsIJL5rb4HR5JS6XS75lsFtVdy+/bG4DiqIBfdXDfxE6HU4ID1NCRmYKGIymH540NLXM1CVNLj242xgWpigaG6kqKj2wqzEpcVLU1WtVjcdPXCz3kf6/FaKvCw3YhtlkMkWOHQMOhwN+q7wEwKIzD32/86w2MSFRm5hQMvKB6XnLo5+Onc10Olx+xrMk6QOfzxfAKIrGAoRMY91uj93hdIJuhhYqL92El83m1rv3H2lt1+0F8bHj45kr+LShqab+ibGcL+BBZEQYsINQkMlwCMaCvTRNg4DPHWI7HE6XXCbh3K6uU5jN3T2rVi6Ao0f2QN29eghC2VD/2HiA9lNMPwPXLgTDYKomHnKyU6GruxeOnzgHmomxfkYhhxvyFDEYn//MqJwyOX7/4JAtoDY0VA5pqcnADCMhTg0cLgeGbASIhIKAfcRiAURFhYNMisPA4DAszM3exnBUXrn1EJUqxj1+N0nzRY4+LV4iwccPDxOtJOlzWq2DmM/nw0JCQjCXyx1YCIJgfr8fIwg7RpI+zGYjNOvX5R3MzkzJbjd3edau37wYVn+0CX4p+zXzn7/WoWEbPWwjaBth/8/F4ITdMXq+rb2TSte/n44JYwGdlTUXIiLCWsrOVFzp6OiRyCTiGC6Xw2bBa7O+GSiCgtdLQp91wPLwUcOxkn2leQajqV4kEsBfZRSRMoshe5wAAAAASUVORK5CYII="/>
+                          </svg>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <div class="right-line"></div>
+            <div class="say-hello">
+                <svg class="border" width="40" height="70" viewBox="0 0 40 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="39" y="69" width="38" height="68" rx="19" transform="rotate(-180 39 69)" stroke="url(#paint0_linear_1_15)" stroke-width="2"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1_15" x1="60" y1="70" x2="60" y2="140" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00FFF5"/>
+                    <stop offset="1" stop-color="#18FF3D" stop-opacity="0"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="8" viewBox="0 0 14 8">
+                    <image width="14" height="8" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAAVUlEQVQYlWNg+P/1PgR/l2cgBP6/V4CpZ4IqVWBg+HcAr2aQJga2/RC1YIHvMFP+47QZYRNUzX95wppxaoIrwKKZoCacmonRhF0zkZowNWPXxMDAAACr+JHtHKOnxAAAAABJRU5ErkJggg=="/>
+                  </svg>
+                  <button>Say Hello</button>
+            </div>
+            <section class="work">
+                <h2>02. work</h2>
+                <div class="examples">
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/example.png" alt="white rectangle">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/watermelon slices.png" alt="watermelon slices">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/example.png" alt="white rectangle">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/example.png" alt="white rectangle">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/example.png" alt="white rectangle">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                    <div class="example">
+                        <img class="example-img" src="static/img/pictures/example.png" alt="white rectangle">
+                        <button class="full-project-button">See full Project</button>
+                    </div>
+                </div>
+                <div>
+                    <button class="show-more">Show more</button>
+                    </div>
+            </section>
+            <section class="experiences">
+                <h2>03. experience</h2>
+                <div class="experience">
+                    <div class="period">
+                    <span>June 2022 - Present</span>
+                    </div>
+                    <div class="job">
+                        <div>
+                            <span class="work-place">Unilab Internship</span>
+                            <span class="job-name">Front End Developer</span>
+                        </div>
+                        <ul>
+                            <li>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with.</li>
+                            <li>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. </li>
+                            <button>See more...</button>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="period">
+                    <span>June 2022 - Present</span>
+                    </div>
+                    <div class="job">
+                        <div>
+                            <span class="work-place">Unilab Internship</span>
+                            <span class="job-name">Front End Developer</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with.</span>
+                            </li>
+                            <li>
+                                <span>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with.</span>
+                            </li>
+                            <button>See more...</button>
+                        </ul>
+                    </div>
+                    <div class="more-button">
+                    <button class="show-more">Show more</button>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <h2>04. Contact</h2>
+                <div class="author-comment">
+                    <span class="question">Interested in collaborating with me?</span>
+                    <span>I’m always open to discussing product design work or partnership opportunities.</span>
+                </div>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                        <address>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+                                <image width="23" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAABbklEQVRIiaVVbZWDMBBcHNRBcdA6oA56DpCABN4pQAJ1gAQkIAEJSJh74W3KsGw4Svdf9mNmv5LIGQHQAZgA9ABKANckDIBana20AC6Of2/8xoCRAt6TPpHQBcCPIVonA2BQQ2mCc6pmk73xLTX7mYANUbnpGxEXRt9pXBvjTDIVOwZ5OuCN2mqj51YEkpvqC9VNc7UE0Djg0Xl0bDklNsXWEXHFAJvBAbinwJ0qGj0/33g69dirKwXl7pDS1U2ybNH77PaWhjnuXpJlbr173gzCKfcrIbBaUqt1Vih70GpVpCu/JYi9H6g9/DxUVFWr8xg0rti9yTrpzYYYgpZ8POmSJKbXvD2VeTlHvQcPzbwnu/vYRaAbOTaGuFMg7y3KVzt+kODfXae4WY445qa/9YELdQxcliE3RDDq2SX5CNxUYb+3cA7VhDUMbVy9Mx+LbkdYxz2Ztyw7xaDtEpGHiIRf6i4iuZpeWZb9ioj8ASaEpmk5GDa9AAAAAElFTkSuQmCC"/>
+                              </svg>
+                            +995 333 67 56 43
+                        </address>
+                        <address>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="18" viewBox="0 0 22 18">
+                                <image width="22" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAAY0lEQVQ4je3UsQnAMAxE0VMWcTbVCB7V3uCCggxJSCeBG/3CuHoYFweLpJIcjGdGX2hPAL8pHi9tCEbydGuIncaJiERh/4HbOzKwvwouuOBd8LRL1gj5da4tzu61yVlDrwBwAWlVcPfLPPQaAAAAAElFTkSuQmCC"/>
+                                <image y="3" width="22" height="9" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAJCAYAAAA2NNx1AAAAl0lEQVQokaWSWw2FQAxEKwEH4AAJFwdIQAISkHAlIAEJSEACEpBwSBOaDISwPJrsT7ednu2OAfN2cvsYQBl6IRzRvZUGWtGZI/mX5PSEHiiAUfpdK9OCWugXoLlJuQQlUF1N72V6f0bvRMAgdcOO8oKkOZDUcvc7vKxNCp7Q+751d/oXvtf3TnKniFjEM8oEffi9TDaY2QpDXBpUxwkJHQAAAABJRU5ErkJggg=="/>
+                              </svg>
+                              contact@contact.ge
+                        </address>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="23" viewBox="0 0 22 23">
+                                <image width="22" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAYAAAAP6L+eAAABa0lEQVQ4jaVVC3HCQBB9y1TAOSAOgoPUARKQgAQkICESUgfBQXFwoCBUwesk3S3b4xJC+mbgZm533+0/8CBZ8wefJPck15gAyUDyQDKq3fZBm2TBR0R9rD87lXb6cOPuPNYpcaXCluS7nnNg+o33+s1xBz1vInICcCK5AyAAzgAuInLrwwdQACgBXFW3d+yg9l+pxxsLdSqvY3BpqVJiC71eSGyFb3PexmedMEEcnNebld6b+ycRuS4h7vMP4MP4jNgKd1lC6mD2YZUIwqjJizBiC7/4J99Gz/Pw76au0z59Gcphxbs3gGu340Liw0O7qaB041vPbTtts+PorlClXbIbWvWkSvQqJfP7pNMV8KsU9bfFPVd18kBMiGPGgTL10iuV7r7Q9Ui3YEy2d5M6XmyXoz8j7R4MiX4wwbMaIMlX6/Zr1vgV4pDJ7WJiyRj002cT1AxKIjm9gTQnmxPFYo/9pymHqW03LgPwDRWQiHSipjTkAAAAAElFTkSuQmCC"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="22" viewBox="0 0 13 22">
+                                <image width="13" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAYAAAAb+hYkAAAAoklEQVQ4jWPABv7//y/w////+v///+//jwnuY2j5//+/AkgCi2I4wKYJpgFEO4BsRZIDA3QN8UgaBLAYiFXTeai4P5Ih7/E6D10Qh9/uE9KEaTIDAwMT1jAnAJiQnYBLKbrzQDYpoKl5gION2x94bINFx3pS/BQApTeguxclSHEEuQFWCRwBgBlH2PxH3XgahppYsAkSSiHoNmFLa6hiDAwMAO5fXKqwEsHKAAAAAElFTkSuQmCC"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="21" viewBox="0 0 22 21">
+                                <image width="22" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVCAYAAABCIB6VAAAA/ElEQVQ4je1U7Q2CMBB9NQ6AE8gmsgkjOEJH0A1wE0ZgBNgAN3jmzJ0ptSAE+OdLSmjv7vVxH0BA0pPsdd30bNWSx43f8GuJnagEkAHIATgALYAngBNW4LAmeApCfFd7p2oFj03YNc9WPI+NijftMBSQaWHboN4NyYrkOXZuE13RxsQkS/2iMYjtGgaM4UMsAYFPTbIQ9WorVLGhHBAnLrJ05IFSP1Enrz79+9IZxKamikgGk6rn9UfADOJG90XQQTGsky5WoznEsd3SctY0UafXuuYNZ0HOOWfEyuGMK2X/td91pP/E+xIf7SVsqRSW2kWx/IdjhGfL7UD3AjOxod4QBZe5AAAAAElFTkSuQmCC"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+                                <image width="22" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAt0lEQVQ4je2VwQ3CMAxFHSboBrABI8AGsEFG6WhlA9iAUR5ysSGEgpSkXFDfJZWrvrg+fIsDdEAPDJRzBqLkABvgWiHMUcc67daleu61+7fbvwAcM0enxfhSqMRG6fJebD7KoVaa/PnOXIP4jFql8ux6JLg0hBBmko++1RyyKRbxIv4rcUsAfRKf7HnbKkuC7CK2NeaOzZgX9CyKT/te4/LhSF/+ZjUlF+g28eAvQRewjvQ+ShG5AS7i2HZx5FO+AAAAAElFTkSuQmCC"/>
+                                <image x="6" y="7" width="10" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAe0lEQVQYlWP4//8/CNf/xw36QWpAiuKRlOT///9fAKoZJP4eKh4PEtiPpIgBDftD5fYzIOkSwKIQhMGAiQEB+JHYGACk8AJUNAGLfD6UvgAy2h7JMyDfy0OdgRwSYM8QCh6QHDh4YNgAGgIgz4EwiO0Ak0f2DG7AwMAAAHvY+QR/LvOlAAAAAElFTkSuQmCC"/>
+                                <image x="15" y="6" width="3" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAIUlEQVQImWP4//9//X8IqGdhYGBYyAABC5igDAYGBgYGAHzIDDzKc5iAAAAAAElFTkSuQmCC"/>
+                              </svg>
+                        </div>
+                        </div>
+                        <img src="static/img/pictures/MacBook-Pro-16.png" alt="macbook pro showing sample of work">
+                </div>
+                <div class="more-button">
+                    <button class="show-more">Get in touch</button>
+                </div>
+                <div class="small-eclipse left-top"></div>
+                <div class="small-eclipse right-top"></div>
+                <div class="small-eclipse bottom-center"></div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
