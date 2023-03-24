@@ -100,6 +100,7 @@ header a {
 
 .author-image:hover {
     padding: 2%;
+    transition: 1s;
 }
 
 .author-image img {
@@ -283,6 +284,7 @@ main {
 
 .example:hover {
     padding: 2%;
+    transition: 1s;
 }
 
 .example:hover .full-project-button {
@@ -291,6 +293,7 @@ main {
 
 .example:hover .example-img {
     opacity: 0.5;
+    transition: 1s;
 }
 
 .show-more{
