@@ -11,12 +11,14 @@
     --size-22: 22px;
 }
 
-
-
 @font-face {
     font-family: 'Nunito';
     src: url(../fonts/Nunito-Medium.ttf);
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #061427;
