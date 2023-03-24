@@ -95,12 +95,12 @@ header a {
     height: 100%;
     border: 1px dashed var(--border-color);
     border-radius: 30px;
-    padding: 3%;
+    padding: 10px;
+    transition: transform 1s ease;
 }
 
-.author-image:hover {
-    padding: 2%;
-    transition: 1s;
+.author-image:hover img {
+    transform: scale(1.1);
 }
 
 .author-image img {
